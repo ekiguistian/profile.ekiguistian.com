@@ -13,6 +13,11 @@
   <meta name="color-scheme" content="light">
   <title>Eki Guistian — Network, Systems & Automation</title>
   <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/fontawesome.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/solid.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/brands.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="assets/css/tailwind.min.css">
   <link rel="stylesheet" href="assets/css/styles.css">
   <script src="assets/js/main.js" defer></script>
 </head>
@@ -22,7 +27,7 @@
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="#top" aria-label="Eki Guistian, kembali ke atas">
-        <span class="brand-mark" aria-hidden="true">EG</span>
+        <span class="brand-mark inline-flex h-9 w-9 items-center justify-center rounded-xl shadow-md" aria-hidden="true"><i class="fa-solid fa-network-wired"></i></span>
         <span class="brand-name">EKI<span class="brand-dot">.</span></span>
       </a>
 
@@ -157,7 +162,7 @@
 
         <div class="focus-grid">
           <article class="focus-card focus-card-featured">
-            <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="5" r="2.5"/><circle cx="5" cy="18" r="2.5"/><circle cx="19" cy="18" r="2.5"/><path d="M10.8 7.2 6.3 15.7M13.2 7.2l4.5 8.5M7.5 18h9"/></svg></div>
+            <div class="card-icon" aria-hidden="true"><i class="fa-solid fa-network-wired"></i></div>
             <p class="card-kicker">01 — CONNECTIVITY</p>
             <h3>Jaringan & ISP</h3>
             <p>Desain, konfigurasi, dan dokumentasi infrastruktur jaringan.</p>
@@ -165,7 +170,7 @@
           </article>
 
           <article class="focus-card">
-            <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="7" rx="2"/><rect x="4" y="14" width="16" height="7" rx="2"/><path d="M8 6.5h.01M8 17.5h.01M12 6.5h4M12 17.5h4"/></svg></div>
+            <div class="card-icon" aria-hidden="true"><i class="fa-solid fa-server"></i></div>
             <p class="card-kicker">02 — INFRASTRUCTURE</p>
             <h3>Linux & sistem</h3>
             <p>Administrasi layanan dan server dengan fondasi Linux.</p>
@@ -173,7 +178,7 @@
           </article>
 
           <article class="focus-card">
-            <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5 3 12l5 7M16 5l5 7-5 7M14 3l-4 18"/></svg></div>
+            <div class="card-icon" aria-hidden="true"><i class="fa-solid fa-code"></i></div>
             <p class="card-kicker">03 — APPLICATIONS</p>
             <h3>Web & data</h3>
             <p>Mengembangkan aplikasi web dan mengelola data pendukung.</p>
@@ -181,7 +186,7 @@
           </article>
 
           <article class="focus-card">
-            <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3v4M12 17v4M4.2 7.2l2.8 2.1M17 14.7l2.8 2.1M3 14h4M17 10h4M4.2 20l2.8-2.1M17 9.3l2.8-2.1"/><circle cx="12" cy="12" r="4"/></svg></div>
+            <div class="card-icon" aria-hidden="true"><i class="fa-solid fa-gears"></i></div>
             <p class="card-kicker">04 — AUTOMATION</p>
             <h3>Otomasi & eksplorasi AI</h3>
             <p>Skrip dan otomasi operasional; integrasi AI menjadi area eksplorasi yang dapat ditambahkan ke portofolio.</p>
@@ -195,46 +200,26 @@
       <div class="container">
         <div class="section-top">
           <div>
-            <p class="eyebrow">03 / PROYEK PILIHAN</p>
-            <h2>Jejak kerja <span>di GitHub.</span></h2>
+            <p class="eyebrow">03 / PROYEK DALAM PENGEMBANGAN</p>
+            <h2>Membangun billing untuk <span>jaringan internet.</span></h2>
           </div>
-          <a class="text-link text-link-dark" href="https://github.com/ekiguistian?tab=repositories" target="_blank" rel="noopener noreferrer">Semua repositori <span aria-hidden="true">↗</span></a>
+          <p class="section-intro">Satu proyek open source yang sedang dikembangkan untuk kebutuhan operasional jaringan.</p>
         </div>
 
-        <div class="project-grid">
-          <a class="project-card project-card-large" href="https://github.com/ekiguistian/Scripts-MikroTik" target="_blank" rel="noopener noreferrer">
-            <div class="project-meta"><span>NETWORK ENGINEERING</span><span class="project-arrow" aria-hidden="true">↗</span></div>
-            <div class="project-art project-art-router" aria-hidden="true"><div class="router-box"><span></span><span></span><span></span><span></span><i>ROUTER OS</i></div><div class="router-lines"></div></div>
-            <h3>Scripts MikroTik</h3>
-            <p>Kumpulan skrip untuk konfigurasi dan otomasi RouterOS.</p>
-            <div class="project-tags"><span>RouterOS</span><span>Networking</span><span>Scripts</span></div>
-          </a>
-
-          <a class="project-card" href="https://github.com/ekiguistian/Install_GenieACS" target="_blank" rel="noopener noreferrer">
-            <div class="project-meta"><span>SYSTEMS & PROVISIONING</span><span class="project-arrow" aria-hidden="true">↗</span></div>
-            <div class="project-art project-art-terminal" aria-hidden="true"><span>$</span> install genieacs <i>_</i></div>
-            <h3>Install GenieACS</h3>
-            <p>Catatan instalasi GenieACS untuk Auto Configuration System di Ubuntu Server 22.04.</p>
-            <div class="project-tags"><span>Ubuntu</span><span>ACS</span><span>Linux</span></div>
-          </a>
-
-          <a class="project-card" href="https://github.com/ekiguistian/basic_config_mikrotik_dhcp" target="_blank" rel="noopener noreferrer">
-            <div class="project-meta"><span>NETWORK CONFIGURATION</span><span class="project-arrow" aria-hidden="true">↗</span></div>
-            <div class="project-art project-art-packet" aria-hidden="true"><span>DHCP</span><i>DISCOVER</i><b>OFFER</b><em>LEASE</em></div>
-            <h3>Basic Config MikroTik DHCP</h3>
-            <p>Repositori konfigurasi dasar layanan DHCP di MikroTik.</p>
-            <div class="project-tags"><span>MikroTik</span><span>DHCP</span><span>Network</span></div>
-          </a>
-
-          <a class="project-card" href="https://github.com/ekiguistian/file_manager" target="_blank" rel="noopener noreferrer">
-            <div class="project-meta"><span>WEB APPLICATION</span><span class="project-arrow" aria-hidden="true">↗</span></div>
-            <div class="project-art project-art-files" aria-hidden="true"><span>PHP</span><div><i></i><i></i><i></i></div></div>
-            <h3>File Manager</h3>
-            <p>Aplikasi manajemen berkas berbasis PHP.</p>
-            <div class="project-tags"><span>PHP</span><span>Web</span></div>
+        <div class="project-grid project-grid-single">
+          <a class="project-card project-card-mynet" href="https://github.com/ekiguistian/Mynet" target="_blank" rel="noopener noreferrer">
+            <div class="project-meta"><span>OPEN SOURCE · BILLING PLATFORM</span><span class="project-arrow" aria-hidden="true">↗</span></div>
+            <div class="project-art project-art-mynet" aria-hidden="true">
+              <div class="mynet-emblem flex h-16 w-16 items-center justify-center rounded-2xl bg-white/80 text-2xl text-indigo-500 shadow-sm ring-1 ring-indigo-100"><i class="fa-solid fa-file-invoice-dollar"></i></div>
+              <div class="mynet-flow"><span>PELANGGAN</span><i class="fa-solid fa-arrow-right"></i><span>TAGIHAN</span><i class="fa-solid fa-arrow-right"></i><span>LAYANAN ISP</span></div>
+              <div class="mynet-orbit mynet-orbit-one"></div><div class="mynet-orbit mynet-orbit-two"></div>
+            </div>
+            <div class="project-title-row"><h3>Mynet Billing</h3><span class="project-status inline-flex items-center gap-2 rounded-full bg-white/80 px-3 py-1.5 text-[10px] font-semibold text-indigo-700 ring-1 ring-indigo-100"><i class="fa-solid fa-circle-dot text-teal-500" aria-hidden="true"></i> Sedang dikembangkan</span></div>
+            <p>Sistem billing open source untuk membantu pemain RT/RW Net dan ISP mengelola layanan internet. Proyek ini masih dalam tahap pengembangan.</p>
+            <div class="project-tags"><span>OPEN SOURCE</span><span>RT/RW NET</span><span>ISP BILLING</span></div>
           </a>
         </div>
-        <p class="project-note">Deskripsi singkat diambil dari nama dan dokumentasi repositori yang tersedia. Studi kasus dan hasil proyek akan diperluas setelah detailnya dikonfirmasi.</p>
+        <p class="project-note">Lihat perkembangan kode di repositori <a href="https://github.com/ekiguistian/Mynet" target="_blank" rel="noopener noreferrer">Mynet <span aria-hidden="true">↗</span></a>.</p>
       </div>
     </section>
 
@@ -358,9 +343,9 @@
           <p class="contact-copy">Terbuka untuk bertukar ide seputar jaringan, Linux, otomasi, dan pengembangan sistem.</p>
         </div>
         <div class="contact-links">
-          <a class="contact-link" href="mailto:ekiguistian@gmail.com"><span class="contact-symbol" aria-hidden="true">↗</span><span><small>EMAIL</small><strong>ekiguistian@gmail.com</strong></span><span class="contact-arrow" aria-hidden="true">↗</span></a>
-          <a class="contact-link" href="https://github.com/ekiguistian" target="_blank" rel="noopener noreferrer"><span class="contact-symbol" aria-hidden="true">GH</span><span><small>GITHUB</small><strong>github.com/ekiguistian</strong></span><span class="contact-arrow" aria-hidden="true">↗</span></a>
-          <a class="contact-link" href="https://linkedin.com/in/ekiguistian" target="_blank" rel="noopener noreferrer"><span class="contact-symbol" aria-hidden="true">in</span><span><small>LINKEDIN</small><strong>linkedin.com/in/ekiguistian</strong></span><span class="contact-arrow" aria-hidden="true">↗</span></a>
+          <a class="contact-link" href="mailto:ekiguistian@gmail.com"><span class="contact-symbol" aria-hidden="true"><i class="fa-solid fa-envelope"></i></span><span><small>EMAIL</small><strong>ekiguistian@gmail.com</strong></span><span class="contact-arrow" aria-hidden="true">↗</span></a>
+          <a class="contact-link" href="https://github.com/ekiguistian" target="_blank" rel="noopener noreferrer"><span class="contact-symbol" aria-hidden="true"><i class="fa-brands fa-github"></i></span><span><small>GITHUB</small><strong>github.com/ekiguistian</strong></span><span class="contact-arrow" aria-hidden="true">↗</span></a>
+          <a class="contact-link" href="https://linkedin.com/in/ekiguistian" target="_blank" rel="noopener noreferrer"><span class="contact-symbol" aria-hidden="true"><i class="fa-brands fa-linkedin-in"></i></span><span><small>LINKEDIN</small><strong>linkedin.com/in/ekiguistian</strong></span><span class="contact-arrow" aria-hidden="true">↗</span></a>
         </div>
       </div>
     </section>
@@ -368,7 +353,7 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <a class="brand footer-brand" href="#top"><span class="brand-mark" aria-hidden="true">EG</span><span class="brand-name">EKI<span class="brand-dot">.</span></span></a>
+      <a class="brand footer-brand" href="#top"><span class="brand-mark inline-flex h-9 w-9 items-center justify-center rounded-xl shadow-md" aria-hidden="true"><i class="fa-solid fa-network-wired"></i></span><span class="brand-name">EKI<span class="brand-dot">.</span></span></a>
       <p>Dirancang untuk berkembang bersama perjalanan.</p>
       <span>© <span id="current-year">2026</span> Eki Guistian</span>
     </div>
