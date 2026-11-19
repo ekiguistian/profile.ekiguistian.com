@@ -11,7 +11,7 @@ Situs portofolio statis Eki Guistian. Dibuat dengan HTML, CSS, dan JavaScript ta
 
 ## Data profil
 
-Bagian pendidikan, pengalaman kerja, dan usaha telah diisi dari informasi pemilik situs. Periode untuk posisi Komisaris & Network Engineer di PT Synergi Antar Sahabat belum dicantumkan karena tanggalnya belum tersedia.
+Bagian pendidikan, pengalaman kerja, dan usaha telah diisi dari informasi pemilik situs, termasuk peran Komisaris & Network Engineer di PT Synergi Antar Sahabat sejak 2024.
 
 AI ditandai sebagai area eksplorasi, bukan klaim pengalaman atau keahlian. Daftar teknologi saat ini dirangkum dari profil GitHub dan dapat disesuaikan.
 
